@@ -1,0 +1,14 @@
+package-as: traq
+formats:
+  - zip
+  - tar.gz
+  - tar.bz2
+ignore:
+  - Packfile
+  - package
+  - upload/_dev
+  - .git
+  - .sass-cache
+  - .gitignore
+  - .gitmodules
+  - .DS_Store
