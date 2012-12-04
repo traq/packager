@@ -1,0 +1,5 @@
+cd upload
+git pull
+git checkout $1
+cd ../
+packmule pack --version $1
