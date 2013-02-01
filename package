@@ -1,5 +1,16 @@
 cd upload
+
+echo "Pulling in changes..."
 git pull
+
+echo "Checking out $1..."
 git checkout $1
+
+echo "Updating submodules"
+git submodule update
+
+echo "Packing..."
 cd ../
 packmule pack --version $1
+
+echo "Done."
