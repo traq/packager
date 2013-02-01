@@ -2,7 +2,6 @@ package-as: traq
 formats:
   - zip
   - tar.gz
-  - tar.bz2
 ignore:
   - Packfile
   - package
