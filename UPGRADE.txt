@@ -1,0 +1,10 @@
+Upgrading Traq
+==============
+
+If you are upgrading Traq from 3.0(.1) to 3.0.2, there is nothing special
+you need to do. Just upload the files in the `upload` directory.
+
+Upgrading from 2.4 and earlier
+------------------------------
+
+See the `MIGRATE.txt` file.

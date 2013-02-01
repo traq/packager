@@ -1,0 +1,36 @@
+Migrating Traq
+==============
+
+In order to upgrade to Traq 3.0, you will need to migrate your installation.
+
+Migrating from Traq 2.3/2.4
+---------------------------
+
+If you are migrating from Traq 2.3 or 2.4, remove all files from the 2.x installation
+and upload the contents of the `upload` directory in their place.
+
+Rename the `htaccess.txt` file to `.htaccess`
+
+Rename the `database.default.php` file to `database.php` in the `vendor/traq/config`
+directory, then open it and enter the database details.
+
+Open your browser and head to the location of Traq but append `/install/migrate.php`,
+for example: `mysite.com/traq/install/migrate.php`.
+
+From there follow the steps.
+
+Migrating from Traq 2.0 to 2.2
+------------------------------
+
+You will need to upgrade to Traq 2.4 then migrate to 3.0.
+
+Migrating from Traq 0.x
+-----------------------
+
+You will need to upgrade to Traq 0.6.1 then migrate to 2.0, then upgrade to 2.4
+then migrate to Traq 3.0.
+
+Why is migrating from 2.4 the only option?
+------------------------------------------
+
+Because only the latest version of Traq is supported.
