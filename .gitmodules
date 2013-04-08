@@ -1,3 +1,0 @@
-[submodule "upload"]
-	path = upload
-	url = git://github.com/nirix/traq.git
