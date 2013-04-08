@@ -11,4 +11,5 @@ For example: `http://mysite.com/traq/install/upgrade.php`
 Upgrading from 2.4 and earlier
 ------------------------------
 
-See the `MIGRATE.txt` file.
+To upgrade from 2.4 and earlier you must first
+upgrade to Traq 3.0.
