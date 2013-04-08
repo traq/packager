@@ -1,16 +1,24 @@
+#!/bin/bash
+
+#
+# Traq Packager
+# Copyright (c) 2012-2013 J. Polgar
+#
+
+# Clone traq
+git clone git://github.com/nirix/traq.git upload
 cd upload
 
-echo "Pulling in changes..."
-git pull
-
-echo "Checking out $1..."
+# Checkout version
 git checkout $1
 
-echo "Updating submodules"
+# Setup framework
+git submodule init
 git submodule update
 
-echo "Packing..."
-cd ../
+# Pack it
+cd ..
 packmule pack --version $1
 
-echo "Done."
+# Cleanup
+rm -rf upload
