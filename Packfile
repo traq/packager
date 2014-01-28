@@ -10,3 +10,4 @@ ignore:
   - "**/.gitignore"
   - "**/.gitmodules"
   - "**/.DS_Store"
+  - pkg/

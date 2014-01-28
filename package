@@ -2,7 +2,7 @@
 
 #
 # Traq Packager
-# Copyright (c) 2012-2013 J. Polgar
+# Copyright (c) 2012-2014 J. Polgar
 #
 
 # Clone traq
@@ -22,3 +22,7 @@ packmule pack --version $1
 
 # Cleanup
 rm -rf upload
+
+# Move files
+mv traq-$1.tar.gz pkg/
+mv traq-$1.zip pkg/
