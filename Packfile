@@ -5,9 +5,8 @@ formats:
 ignore:
   - Packfile
   - package
-  - upload/_dev
-  - .git
-  - .sass-cache
-  - .gitignore
-  - .gitmodules
-  - .DS_Store
+  - "**/.git"
+  - "**/.sass-cache"
+  - "**/.gitignore"
+  - "**/.gitmodules"
+  - "**/.DS_Store"
